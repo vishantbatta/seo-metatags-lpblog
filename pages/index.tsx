@@ -37,7 +37,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               See your changes reflected instantly on your website with our seamless integration.
             </p>
           </BasicSection>
-          </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="SEO optimization at scale" overTitle="Stand out against the crowd" reversed>
             <p>
               Boost your search rankings with dynamically optimized meta tags for all your pages.
