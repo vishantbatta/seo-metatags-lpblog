@@ -26,7 +26,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
+{/*           <Partners /> */}
           <BasicSection imageUrl="/demo-illustration-1.svg" title="No-code solution" overTitle="No code? No problem">
             <p>
               Manage meta tags effortlessly without any coding knowledge or developer dependency
