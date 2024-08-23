@@ -14,19 +14,17 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
+        <CustomOverTitle>No Code Meta Tags Dashboard</CustomOverTitle>
         <Heading>Take control of your SEO with dynamic meta tags</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
-        </Description>
+          Preview, edit and manage SEO Meta Tags without engineering help
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Get started <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
+            <Button transparent onClick={() => setIsModalOpened(true)}>
+              Subscribe to the newsletter <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
