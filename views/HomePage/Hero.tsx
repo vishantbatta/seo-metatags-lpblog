@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>No Code Meta Tags Dashboard</CustomOverTitle>
+        <CustomOverTitle>No Code Meta Tags Management Dashboard</CustomOverTitle>
         <Heading>Take control of your SEO with dynamic meta tags</Heading>
         <Description>
           Preview, edit and manage SEO Meta Tags without engineering help
@@ -95,7 +95,7 @@ const CustomOverTitle = styled(OverTitle)`
 `;
 
 const Heading = styled.h1`
-  font-size: 7.2rem;
+  font-size: 6rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 4rem;
