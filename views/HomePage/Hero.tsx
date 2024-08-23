@@ -18,6 +18,7 @@ export default function Hero() {
         <Heading>Take control of your SEO with dynamic meta tags</Heading>
         <Description>
           Preview, edit and manage SEO Meta Tags without engineering help
+        </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Get started <span>&rarr;</span>
